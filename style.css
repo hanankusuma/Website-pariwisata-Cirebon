@@ -1,0 +1,68 @@
+
+body {
+  background-image: url('cirebon/sea.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('cirebon/sea.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px); /* Atur nilai blur sesuai preferensi */
+  z-index: -1;
+}
+.search-form {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  width: 28cm; /* Perpanjang lebar search form */
+  margin: 0 auto; /* Tengahkan search form di tengah layar */
+}
+
+.form-label {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.search-button {
+  border-radius: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-title {
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  margin-bottom: 20px;
+  letter-spacing: 15px;
+  white-space: nowrap;
+}
+
+/* Kode tambahan */
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group .form-control {
+  margin-right: 1cm; /* Geser input ke kanan sepanjang 1 cm */
+}
