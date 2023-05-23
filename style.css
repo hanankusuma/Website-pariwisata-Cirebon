@@ -1,5 +1,5 @@
 
-body {
+.body-background{
   background-image: url('cirebon/sea.jpg');
   background-size: cover;
   background-position: center;
@@ -65,4 +65,87 @@ body {
 
 .input-group .form-control {
   margin-right: 1cm; /* Geser input ke kanan sepanjang 1 cm */
+}
+.navbar {
+  width: 1370px;
+  margin-left: -130px;
+}
+.nav-item {
+  color: black;
+}
+.navbar-brand {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-shadow: 2px 3px 2px rgb(172, 172, 172);
+}
+.nav1 {
+  margin-left: 860px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+.nav2 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+.nav3 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+.nav4 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+.flower-image {
+  margin-left: -90px;
+  border-radius: 20px;
+  width: 900px;
+}
+.card-1 {
+  margin-left: 80px;
+  margin-top: 20px;
+  
+}
+.card-2 {
+  margin-left: 90px;
+  margin-top: 97px;
+}
+.card-3 {
+  margin-left:80px;
+  margin-top: 20px;
+}
+.card-4 {
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.text-1 {
+margin-top: 50px;
+margin-left: 80px;
+white-space: nowrap;
+font-weight: 500;
+}
+.description-text {
+margin-left: calc(-150px + 2cm);
+margin-right: calc(-150px + 2cm);
+font-weight: 600;
+}
+.title-text {
+font-weight: 600;
+}
+.nature-image {
+  width: 1400px;
+  margin-left: -150px;
+}
+.custom-navbar {
+    
+  margin-left: -120px;
+}
+.custom-h1 {
+  color: white;
+  font-size: 5em;
+  margin-top: -5px;
 }
